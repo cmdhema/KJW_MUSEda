@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/litegray" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <com.museda.TitleBar
+            android:id="@+id/titlebar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/cover_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titlebar" >
+
+            <ImageView
+                android:id="@+id/museprofile_cover_iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/defaultcover"
+                android:clickable="false"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:id="@+id/museprofile_allindicator_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/infobar"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/museprofile_tv_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="My Muse"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="Following"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="Follower"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="Heart"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/museprofile_numtv_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:id="@+id/museprofile_mymusenum_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/museprofile_followingnum_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/museprofile_followernum_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/museprofile_heartnum_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.museda.util.views.RoundedImageView
+            android:id="@+id/museprofile_profile_iv"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignBottom="@+id/id_layout"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:padding="2dp" />
+
+        <RelativeLayout
+            android:id="@+id/id_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cover_layout"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/museprofile_profile_iv"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/name"
+                android:textColor="@color/litegray"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_layout"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/birthday" />
+
+                <TextView
+                    android:id="@+id/birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:id="@+id/today_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/today_iv"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/today" />
+
+                    <TextView
+                        android:id="@+id/today"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/today_iv"
+                        android:text="  Today" />
+
+                    <TextView
+                        android:id="@+id/today_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/today" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/livein" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Lives in " />
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/say" />
+
+                <TextView
+                    android:id="@+id/introduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttons_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/follow_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/follow_btn"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/muse_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/muse_btn"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/mymuse_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/mymuse_btn"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/following_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/following_btn"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/follow_long_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/muse_follow_selector"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/modify_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/cover_layout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/btn_setting_selector"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info_layout"
+            android:layout_marginTop="15dp"
+            android:background="@color/litegray"
+            android:orientation="vertical" >
+
+	        <com.museda.util.views.ScrollGridView
+	                android:id="@+id/musephoto_gridview"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:horizontalSpacing="10dp"
+	                android:numColumns="3"
+	                android:padding="10dp"
+	                android:stretchMode="columnWidth"
+	                android:verticalSpacing="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

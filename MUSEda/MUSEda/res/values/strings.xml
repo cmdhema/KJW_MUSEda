@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MUSEDA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="assign_musedais">뮤즈다는</string>
+    <string name="assign_musedais_1">댓글 등 텍스트가 없어요</string>
+    <string name="assign_musedais_2">뮤즈의 사진 외에는 노출 되지\n않아요</string>
+    <string name="assign_musedais_3">타인의 사진 도용은 안돼요</string>
+    
+    <string name="assign_assignmuse">뮤즈회원으로 가입하세요</string>
+    <string name="assign_assignmuse_1">아름다움을 공유하고</string>
+    <string name="assign_assignmuse_2">나의 인기를 확인할 수 있어요</string>
+    
+    <string name="assign_findmuse">나만의 뮤즈를 발견하세요</string>
+    <string name="assign_findmuse_1">내게 영감을 주는 뮤즈를\nLike,Follow 하세요</string>
+    <string name="assign_findmuse_2"><u>서비스 약관</u></string>
+    <string name="assign_findmuse_3">에 동의합니다</string>
+    
+    <string name="assign_muse">뮤즈 가입하기</string>
+    <string name="assign_muse_1">실물 프로필 사진을 업로드 하세요</string>
+    
+    <string name="maintitle">지금, 세상에서 가장 빛나는 아름다움을\n뮤즈다에서 확인하세요 </string>
+    <string name="museintro">뮤즈는 많은 사람들에게 영감과 활력을 주는 아름다운 여성을뜻 합니다.\n\n이제 당신의 사진을 간편하게 업로드 하고 전 세계에 행복한 영감을 줄 수 있습니다.</string>
+    <string name="experiancetitle">Login</string>
+    <string name="assistance">- SK플래닛 T아카데미 강사 \n\n- 유병한(숭실대학교)</string>
+	<string name="opensource">
+	    
+	    GestureImageView
+		\n
+	    Apache License 2.0
+	    \n\n
+	    JazzyViewPager
+	    \n
+	    PullToRefresh
+	    \n
+	    Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+
+   1. Definitions.
+
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+
+   END OF TERMS AND CONDITIONS
+
+
+   APPENDIX: How to apply the Apache License to your work.
+
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information.  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+
+   Copyright [yyyy] [name of copyright owner]
+
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   \n
+   https://github.com/jfeinstein10/JazzyViewPager
+   \n
+   https://github.com/chrisbanes/Android-PullToRefresh
+   \n\n
+   TohchGallery
+   \n
+	Copyright (c) 2012-2013 Roman Truba
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	\n
+	https://github.com/Dreddik/AndroidTouchGallery
+	</string>
+	
+	<string name="clause">
+	    1. 목적
+	    \n
+		이 약관은 뮤즈다(이하 "회사"라 합니다)가 제공하는 서비스와 관련하여, 회사와 이용고객(또는 회원)간에 서비스 이용조건 및 절차, 회사와 회원간의 권리ㆍ의무 및 책임사항 기타 필요한 사항을 규정함을 목적으로 합니다.
+		\n
+		2. 약관의 효력과 변경
+		① 이 약관은 뮤즈다가 제공하는 모든 인터넷서비스에 게시하여 공시합니다. "회사"는 "약관의 규제에 관한 법률", "정보통신망 이용촉진 및 정보보호 등에 관한 법률" 등 관련법에 위배하지 않는 범위에서 이 약관을 변경할 수 있으며, 회사는 약관이 변경되는 경우에 변경된 약관의 내용과 시행일을 정하여, 그 시행일로부터 최소10일(이용자에게 불리하거나 중대한 사항의 변경은 30일) 이전부터 시행일 후 상당한 기간 동안 공지하고, 기존 이용자에게는 변경된 약관, 적용일자 및 변경사유(변경될 내용 중 중요사항에 대한 설명을 포함)를 전자우편주소로 발송합니다. 변경된 약관은 공시하거나 고지한 시행일로부터 효력이 발생합니다.② 이용자는 변경된 약관에 대해 동의하지 않을 권리가 있으며, 시행일로부터 10일(이용자에게 불리하거나 중대한 사항의 변경인 경우에는 30일) 내에 변경된 약관에 대해 거절의 의사를 표시하지 않았을 때에는 본 약관의 변경에 동의한 것으로 간주합니다.③ 본 약관에서 규정된 내용이 개별 서비스 약관에서 정한 이용 규정과 충돌하는 경우에는 개별 서비스 약관의 규정이 우선하여 적용됩니다.
+		\n
+		3. 서비스의 구분
+		① "회사"가 이용고객에게 제공하는 "서비스"는 무료서비스, 유료서비스 등으로 구분합니다.② 무료서비스, 유료서비스 등의 종류와 이용방법 등은 이 약관 및 "회사"가 공지 또는 이용안내에서 별도로 정하는 바에 의합니다.
+		\n
+		4. 개인정보보호
+		"회사"는 이용자들의 개인정보를 중요시하며, 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법, 전기통신사업법 등 관련 법규를 준수하고 있습니다. "회사"는 개인정보보호정책을 통하여 이용고객이 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.
+		\n
+		5. 이용고객의 의무
+		① 이용고객은 회원가입을 통해 이용신청을 할 경우 사실에 근거하여 작성하여야 합니다. 회원이 허위, 또는 타인의 정보를 등록한 경우 회사에 대하여 일체의 권리를 주장할 수 없으며, 회사는 이로 인하여 발생하는 손해에 대하여 책임을 부담하지 않습니다② 이용고객은 본 약관에서 규정하는 사항과 기타 회사가 정한 제반 규정, 회사가 공지하는 사항을 준수하여야 합니다. 또한 회원은 회사의 업무에 방해가 되는 행위, 회사의 명예를 손상시키는 행위를 해서는 안됩니다.③ 회원은 청소년 보호법 등 관계 법령을 준수하여야 합니다. 회원이 청소년 보호법 등 관계 법령을 위반한 경우는 해당 법령에 의거 처벌을 받게 됩니다.④ 이용고객은 회사에서 제공하는 서비스를 게임 또는 서비스 본래의 이용목적 이외의 용도로 사용해서는 안됩니다. 이용고객은 아래 각 호의 행위를 하여서는 안되며, 이에 해당되는 행위를 할 경우에는 본 약관 및 각 서비스 별로 공지하는 운영정책에 따라 이용고객의 서비스 이용을 제한하거나 아이디의 삭제, 수사기관의 고발 조치 등 적법한 조치를 포함한 제재를 가할 수 있습니다.
+		\n
+		6. 서비스의 제한, 변경 등
+		① "회사"는 전시, 사변, 천재지변 또는 이에 준하는 국가비상사태가 발생하거나 발생할 우려가 있는 경우와 전기통신사업법에 의한 기간통신사업자가 전기통신서비스를 중지하는 등 부득이한 사유가 있는 경우에는 서비스의 전부 또는 일부를 제한하거나 중지할 수 있습니다.② 무료서비스는 전항의 규정에도 불구하고, "회사"의 경영정책 등의 사유로 서비스의 전부 또는 일부가 제한되거나 중지될 수 있으며, 유료로 전환될 수 있습니다.③ "회사"는 "서비스"의 이용을 제한하거나 정지하는 때와 무료서비스를 유료로 전환하는 때에는 그 사유 및 제한기간, 예정일시 등을 지체 없이 이용고객에게 알려야 합니다.④ “회사”는 이용 감소로 인한 원활한 서비스 제공의 곤란 및 수익성 악화, 기술 진보에 따른 차세대 서비스로의 전환 필요성, 서비스 제공과 관련한 회사 정책의 변경 등 기타 상당한 이유가 있는 경우에 운영상, 기술상의 필요에 따라 제공하고 있는 ‘서비스’(‘유료서비스’포함)의 일부 혹은 전부를 변경 또는 중단할 수 있습니다.⑤ “회사”는 무료로 제공되는 서비스의 일부 또는 전부를 “회사”이 정책 및 운영의 필요상 수정, 중단, 변경할 수 있으며 이에 대하여 관련법에 특별한 규정이 없는 한 귀하에게 별도의 보상을 하지 않습니다.⑥ “서비스”의 내용, 이용방법, 이용시간에 대하여 변경 또는 서비스 중단이 있는 경우에는 변경 또는 중단될 서비스의 내용 및 사유와 일자 등을 변경 또는 중단 전에 ‘웹사이트’ 또는 ‘서비스’ 내에 게시하는 방식으로 7일의 기간을 두고 사전에 공지합니다.
+		\n
+		7. 서비스의 제공중단, 이용제한 등 "회사"는 이용고객이 다음 각호에 해당하는 경우에는 이용고객의 서비스 이용을 일부 또는 전부 제한할 수 있습니다.
+		\n
+ 			1. 선정성 콘텐츠를 유포하는 경우\n
+			2. 다량의 정보를 전송하여 서비스의 안정적 운영을 방해하는 경우\n
+			3. 수신자의 의사에 반하는 광고성 정보, 폭언을 지속적으로 전송하는 경우\n
+			4. 제3자의 지적재산권을 침해하는 경우\n
+			5. 다른 이용고객의 아이디를 부정하게 사용하는 경우\n
+			6. 관련법령등을 위반하는 행위를 하는 경우\n\n
+		
+		8. 이용제한 및 해제절차\n
+① "회사"가 제15조에 의하여 이용제한을 하고자 하는 때에는 그 사유, 일시 및 기간을 정하여 이용제한 7일전까지 전화 또는 전자우편 등의 방법으로 해당 이용고객 또는 대리인에게 통지합니다. 다만, 긴급하게 이용을 제한할 필요가 있을 경우에는 그러하지 않습니다.② "회사"는 이용정지 기간 중에 그 이용정지 사유가 해소된 것이 확인된 경우에는 이용정지조치를 즉시 해제합니다.9. 서비스의 해제·해지 및 청약철회
+① 회원이 이용 계약을 해지하고자 할 때에는 언제든지 설정 > 계정 페이지를 통해 해지할 수 있습니다.② 회사는 회원이 본 약관에서 정한 회원의 의무를 위반한 경우 등 비정상적인 이용 또는 부당한 이용 등을 이유로 회원에게 사전에 고지하고, 계약을 해지할 수 있습니다.10. 면책
+① "회사"는 이용고객이 "회사"의 "서비스" 제공으로부터 기대되는 이익을 얻지 못한 데 대하여 책임이 없습니다.② "회사"는 제3자가 게시 또는 전송한 자료로 인한 이용고객의 손해에 대하여는 책임이 없습니다.③ "회사"는 이용고객 상호간 또는 이용고객과 제3자 간에 "서비스"를 매개로 발생한 분쟁에 대하여는 개입할 의무도 이로 인한 손해를 배상할 책임도 없습니다.11. 공개 게시물 등의 관리
+① "회사"는 다음 각호에 해당하는 공개 게시물 자료를 삭제, 등록거부 하는 등의 필요조치를 취할 수 있습니다. 이 경우 게시물 및 자료의 삭제 등에 대하여 회사는 어떠한 책임도 부담하지 않습니다.
+1. 타인의 법률상 이익을 침해하는 행위와 관련된 것으로 추정되는 게시물, 자료로서, 이해당사자의 삭제 등 요청이 있거나, 회사가 피소, 고발될 수 있는 사유를 제공하는 게시물, 자료
+
+2. 전기통신 관계법령 및 형사 관계법령에 따른 국가기관 등의 삭제 등 요구가 있는 게시물, 자료
+② "회사"는 게시물 등에 대하여 제3자로부터 명예훼손, 지적재산권 등의 권리 침해를 이유로 게시중단 요청을 받은 경우 이를 임시로 게시중단(전송중단)할 수 있으며, 게시중단 요청자와 게시물 등록자 간에 소송, 합의 기타 이에 준하는 관련기관의 결정 등이 이루어져 회사에 접수된 경우 이에 따릅니다.③ 해당 게시물 등에 대해 임시게시 중단이 된 경우, 게시물을 등록한 회원은 재게 시(전송재개)를 회사에 요청할 수 있으며, 게시 중단일로부터 30일 이내에 재게시를 요청하지 아니한 경우 회사는 이를 삭제할 수 있습니다.12. 정보의 제공 및 광고의 게재
+① "회사"는 이용고객이 서비스 이용 중 필요하다고 인정되는 각종 정보 및 광고를 배너 게재, 전자우편(E-Mail), 휴대폰 단문메세지(SMS), 전화, 우편 등의 방법으로 회원에게 제공(또는 전송)할 수 있습니다. 이용고객은 이를 원하지 않을 경우에 회사가 제공하는 방법에 따라 수신을 거부할 수 있습니다.② 전항 단서에 따른 수신 거부 이용고객의 경우에도 이용약관, 개인정보보호정책, 기타 이용고객의 이익에 영향을 미칠 수 있는 중요한 사항의 변경 등 이용고객이 반드시 알고 있어야 하는 사항에 대해서는 전자우편 등의 방법으로 정보의 제공 등을 할 수 있습니다.③ 회사는 광고주의 판촉 활동에 이용고객이 참여하거나, 거래의 결과로서 발생하는 손실 또는 손해에 대해서는 책임을 지지 않습니다.13. 지적재산권
+① "회원"은 "서비스" 에 제공한 "회원"의 "콘텐츠”(이미지파일, 영상파일, 메세지, 게시글 등 "회원"이 서비스에 제공하거나 서비스를 이용하면서 업로드한 자료 일체)와 관련하여 저작권, 인격권 등 제 3자와의 분쟁 발생시 그 법적 대응 및 결과에 대한 책임을 지며, "회사"는 해당 "콘텐츠"와 관련된 일체의 책임을 명시적으로 부인합니다.② "회사"는 "서비스"를 통한 저작권 침해행위나 지적재산권 침해를 허용하지 아니하며, "회원"의 "콘텐츠"가 타인의 지적재산권을 침해한다는 사실을 적절하게 고지받거나 인지하게 되는 경우 저작권법 기타 관련 법령에서 정한 절차에 따라 그 "콘텐츠" 일체의 서비스를 중지하거나 제거할 수 있습니다. 또한 "회사"는 "회원"의 "콘텐츠"가 "서비스" 운영 상의 문제가 있다고 판단하는 경우 사전통지 없이 삭제하거나 이동 또는 등록 거부할 수 있는 권리를 보유합니다.14. 관할법원 및 준거법
+① "서비스"와 관련하여 분쟁이 발생한 경우, 제소 당시의 "이용자"의 주소에 의하고, 주소가 없는 경우 거소를 관할하는 지방법원의 전속관할로 합니다.② 제소 당시 "이용자"의 주소 또는 거소가 분명하지 아니한 경우에 "회사"와 "이용자"간의 "콘텐츠"이용계약에 관한 소송에 관한 관할법원은 민사소송법에 따라 정합니다.③ 1항과2항의 경우 준거법은 대한민국의 법령을 적용합니다.15. 서비스의 이용
+① 서비스의 이용은 연중무휴 1일 24시간을 원칙으로 합니다. 다만, 회사의 업무상이나 기술상의 이유로 서비스가 일지 중지될 수 있고, 또한 운영상의 목적으로 회사가 정한 기간에는 서비스가 일시 중지될 수 있습니다. 이러한 경우 회사는 사전 또는 사후에 이를 공지합니다.
+② 회사는 서비스를 일정범위로 분할하여 각 범위별로 이용 가능한 시간을 별도로 정할 수 있으며 이 경우 그 내용을 공지합니다.
+대표자: 유웅기
+연락처: contact@museda.com
+</string>
+    <array name="experiancedialog">
+        <item name="signin">Sign In</item>
+        <item name="login">Login</item>
+        <item name="cancel">Cancel</item>
+    </array>
+
+</resources>

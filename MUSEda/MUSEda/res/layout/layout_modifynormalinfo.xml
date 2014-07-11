@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.museda.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.museda.TitleBar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="직업" />
+
+            <TextView
+                android:id="@+id/job_tv_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="/40" />
+
+            <TextView
+                android:id="@+id/modify_job_textlength_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/job_tv_40" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/modify_job_et"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="top" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학교" />
+
+            <TextView
+                android:id="@+id/school_tv_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="/40" />
+
+            <TextView
+                android:id="@+id/modify_school_textlength_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/school_tv_40" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/modify_school_et"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="top" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="취미" />
+
+            <TextView
+                android:id="@+id/hobby_tv_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="/40" />
+
+            <TextView
+                android:id="@+id/modify_hobby_textlength_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/hobby_tv_40" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/modify_hobby_et"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="top" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="좋아하는 것" />
+
+            <TextView
+                android:id="@+id/like_tv_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="/40" />
+
+            <TextView
+                android:id="@+id/modify_like_textlength_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/like_tv_40" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/modify_like_et"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="top" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="특기" />
+
+            <TextView
+                android:id="@+id/skill_tv_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="/40" />
+
+            <TextView
+                android:id="@+id/modify_skill_textlength_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/skill_tv_40" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/modify_skill_et"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="top" />
+
+        <ImageView
+            android:id="@+id/modify_save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/btn_save_selector" />
+    </LinearLayout>
+
+</LinearLayout>

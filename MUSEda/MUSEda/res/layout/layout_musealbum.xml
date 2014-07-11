@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <com.museda.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/myphoto_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlebar"
+        android:clipToPadding="false"
+        android:divider="@color/white"
+        android:dividerHeight="8dp"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+    <RelativeLayout
+        android:id="@+id/firstalbum_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/myphoto_list"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/header_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" >
+
+            <com.museda.util.views.RoundedImageView
+                android:id="@+id/first_myphoto_profile_iv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/first_photonum_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/first_myphoto_profile_iv"
+                android:background="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/header_layout"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/scroll_track"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_horizontal" >
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/triangle" />
+
+            <LinearLayout
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/layout_border"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/assigntime_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <ImageView
+                        android:id="@+id/albumfirst_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/album_btn1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/albumfirst_btn"
+                        android:text="뮤즈다에 가입하셨습니다" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/first_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/nopicture"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/photoup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_upload_selector" />
+
+</RelativeLayout>

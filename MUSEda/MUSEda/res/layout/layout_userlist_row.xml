@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dp" >
+
+    <com.museda.util.views.RoundedImageView
+        android:id="@+id/userlist_profile_iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/userlist_profile_iv"
+        android:orientation="vertical"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/userlist_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/userlist_id_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/litegray" />
+
+        <TextView
+            android:id="@+id/userlist_national_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/page_follower_btn" />
+
+</RelativeLayout>

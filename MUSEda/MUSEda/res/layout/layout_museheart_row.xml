@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/scroll_track"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white" >
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray" />
+
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/timeline_dot" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/triangle" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="10"
+            android:background="@drawable/layout_border"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:id="@+id/day_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/heartview_day_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/heartview_heartnum_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/heartview_heartnum_tv"
+                    android:src="@drawable/heart_mini" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo9"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo10"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo11"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo12"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo13"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo14"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo15"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo16"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo17"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo18"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo19"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo20"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo21"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo22"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo23"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo24"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo25"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo26"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo27"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo28"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo29"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo30"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo31"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo32"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo33"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/photo34"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/more"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

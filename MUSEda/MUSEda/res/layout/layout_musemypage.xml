@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/litegray" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="@null"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/templayout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.SquareRelativeLayout
+                    android:id="@+id/musefollower_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/page_musehome_mfollower_selector" >
+
+                    <TextView
+                        android:id="@+id/musefollower_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+                </com.museda.util.views.SquareRelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05" >
+                </LinearLayout>
+
+                <com.museda.util.views.SquareRelativeLayout
+                    android:id="@+id/follower_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/page_musehome_follower_selector" >
+
+                    <TextView
+                        android:id="@+id/follower_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+                </com.museda.util.views.SquareRelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.SquareRelativeLayout
+                    android:id="@+id/heart_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/page_musehome_heart_selector" >
+
+                    <TextView
+                        android:id="@+id/heart_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="37dp"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+                </com.museda.util.views.SquareRelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05" >
+                </LinearLayout>
+
+                <com.museda.util.views.SquareImageView
+                    android:id="@+id/map_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/page_musehome_map_selector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.SquareRelativeLayout
+                    android:id="@+id/profile_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/page_musehome_profile_selector" >
+
+                    <com.museda.util.views.RoundedImageView
+                        android:id="@+id/musemypageprofile_iv"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerInParent="true" />
+                </com.museda.util.views.SquareRelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05" >
+                </LinearLayout>
+
+                <com.museda.util.views.SquareImageView
+                    android:id="@+id/heartpic_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/page_musehome_heartpic_selector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <com.museda.util.views.SquareImageView
+                    android:id="@+id/feed_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/page_musehome_feed_selector" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05" >
+                </LinearLayout>
+
+                <com.museda.util.views.SquareRelativeLayout
+                    android:id="@+id/following_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/page_musehome_following_selector" >
+
+                    <TextView
+                        android:id="@+id/following_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+                </com.museda.util.views.SquareRelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+    <com.museda.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

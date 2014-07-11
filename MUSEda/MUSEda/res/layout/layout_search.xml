@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:textColor="@color/white"
+            android:id="@+id/museid_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:hint="ID or Username"
+            android:singleLine="true" />
+
+        <com.museda.util.views.SquareImageView
+            android:id="@+id/search_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/search_selector" />
+
+        <com.museda.util.views.SquareImageView
+            android:id="@+id/cancel_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/search_done_selector" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/blank_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11" >
+    </RelativeLayout>
+
+</LinearLayout>

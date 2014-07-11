@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.museda"
+    android:versionCode="1"
+    android:versionName="0.9" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/museda_icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme"
+        android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+        <activity
+            android:name="com.museda.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.museda.MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.museda.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentTheme" >
+        </activity>
+        <activity
+            android:name="com.museda.main.MuseMainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.main.NormalMainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.follow.UserListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.heart.MuseHeartActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.favoriteheartpic.HeartFavoriteListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.map.MuseMapActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.setting.SettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.profile.MuseProfileActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.profile.NormalProfileActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.setting.NotiListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.detail.MuseDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.detail.PhotoDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.detail.HeartMoreActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.feed.MuseFeedActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.photo.PhotoCheckActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.experiance.ExperianceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.assign.AssignActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentTheme" >
+        </activity>
+        <activity
+            android:name="com.museda.assign.AssignTutorialActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentTheme" >
+        </activity>
+        <activity
+            android:name="com.museda.search.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentTheme" >
+        </activity>
+        <activity
+            android:name="com.museda.passwordreset.PasswordResetActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.profile.ModifyNormalInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.profile.ModifyUserInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.setting.IntroMovieActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.setting.noti.NotiListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.setting.account.AccountSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.setting.version.VersionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.museda.setting.tutorial.TutorialActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

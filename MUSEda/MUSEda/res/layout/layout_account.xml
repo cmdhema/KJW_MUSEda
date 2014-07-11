@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/litegray"
+    android:orientation="vertical" >
+
+    <com.museda.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/account_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="개인정보 수정" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/account_name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="이름" />
+
+                <TextView
+                    android:id="@+id/account_name_set_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/blue" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" >
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/account_email_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:text="이메일" />
+
+                <TextView
+                    android:id="@+id/account_email_set_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/blue" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/account_pwchange_tv"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="비밀번호 변경하기" />
+
+            <Button
+                android:id="@+id/account_logout_btn"
+                android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="로그아웃" />
+
+            <TextView
+                android:id="@+id/account_signout_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:paddingRight="10dp"
+                android:text="탈퇴하기" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

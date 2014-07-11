@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/litegray" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60dp" >
+
+                <ImageView
+                    android:id="@+id/museview_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true" />
+
+                <TextView
+                    android:id="@+id/museview_heartnum_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/museview_iv"
+                    android:layout_alignParentRight="true"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:src="@drawable/page_userid_fav1"
+                    android:visibility="invisible"
+                    android:id="@+id/favorite_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/infolayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_layout"
+                android:background="@color/white" >
+
+                <com.museda.util.views.RoundedImageView
+                    android:id="@+id/museview_porfile_iv"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:id="@+id/museview_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/museview_porfile_iv"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/museview_id_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/museview_name_tv"
+                    android:layout_toRightOf="@id/museview_porfile_iv"
+                    android:textColor="@color/litegray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/museview_pasttime_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/museview_id_tv"
+                    android:layout_toRightOf="@id/museview_porfile_iv"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/heart_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="2dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/photolist1_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/infolayout"
+                android:background="@color/litegray"
+                android:gravity="center_horizontal"
+                android:padding="3dp" >
+
+                <ImageView
+                    android:id="@+id/photo1"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/layout_border"
+                    android:padding="3dp"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/photo2"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_toRightOf="@id/photo1"
+                    android:background="@drawable/layout_border"
+                    android:padding="3dp"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/photo3"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_toRightOf="@id/photo2"
+                    android:background="@drawable/layout_border"
+                    android:padding="3dp"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/photolist2_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/photolist1_layout"
+                android:background="@color/litegray"
+                android:gravity="center_horizontal"
+                android:padding="3dp" >
+
+                <ImageView
+                    android:id="@+id/photo4"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/layout_border"
+                    android:padding="3dp"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/photo5"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_toRightOf="@id/photo4"
+                    android:background="@drawable/layout_border"
+                    android:padding="3dp"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/morebtn"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_toRightOf="@id/photo5"
+                    android:background="@drawable/layout_border"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/page_userid_more"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.museda.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

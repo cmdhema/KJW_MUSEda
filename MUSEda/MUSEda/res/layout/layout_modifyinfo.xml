@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/litegray"
+    android:orientation="vertical" >
+
+    <com.museda.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.museda.TitleBar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="국가" />
+
+        <Spinner
+            android:id="@+id/modify_country_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="생일" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/modify_birthday_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="한 줄 소개" />
+
+            <TextView
+                android:id="@+id/tv_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="/40" />
+
+            <TextView
+                android:id="@+id/modify_textlength_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_40" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/modify_introduce_et"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="top" />
+
+        <ImageView
+            android:id="@+id/modify_save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/btn_save_selector" />
+    </LinearLayout>
+
+</LinearLayout>
